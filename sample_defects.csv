@@ -1,0 +1,21 @@
+Defect_ID,Title,Description,Module,Severity,Status
+D001,Login fails with 500 error,User receives HTTP 500 error when logging into the application,Authentication,High,Open
+D002,Internal server error during login,HTTP 500 occurs when user attempts to sign in,Authentication,High,Open
+D003,Password reset email not sent,Reset password email is not triggered after clicking forgot password,Authentication,Medium,Open
+D004,No email received for password reset,Forgot password does not send reset link email to user,Authentication,Medium,Open
+D005,Dashboard page loads slowly,Dashboard takes more than 15 seconds to load after login,UI,Medium,Open
+D006,Slow loading of dashboard screen,After login dashboard response time exceeds 15 seconds,UI,Medium,Open
+D007,Application crashes on clicking export,App crashes when export to Excel button is clicked,Reports,High,Open
+D008,Export to Excel causes system crash,System throws exception and closes when exporting report to Excel,Reports,High,Open
+D009,Search results not filtered correctly,Search filter by date returns incorrect results,Search,Medium,Open
+D010,Date filter not working in search module,Applying date filter in search shows wrong data,Search,Medium,Open
+D011,Typo in homepage title,Homepage header shows 'Welcom' instead of 'Welcome',UI,Low,Open
+D012,Spelling mistake in homepage header,Header text on homepage has incorrect spelling of Welcome,UI,Low,Open
+D013,User session expires too early,Session timeout occurs within 2 minutes of inactivity,Authentication,Medium,Open
+D014,Session timeout shorter than expected,User gets logged out after 2 minutes instead of configured 10 minutes,Authentication,Medium,Open
+D015,Payment gateway timeout,Payment fails due to gateway timeout after 30 seconds,Payments,High,Open
+D016,Payment transaction timeout error,Transaction not completed due to timeout from payment provider,Payments,High,Open
+D017,Incorrect total in invoice,Invoice total calculation is incorrect when applying discount,Billing,High,Open
+D018,Wrong invoice amount after discount,Total amount is miscalculated if discount is applied,Billing,High,Open
+D019,Profile picture upload fails,User cannot upload profile image,Profile,Medium,Open
+D020,Error while uploading profile photo,System throws error when uploading user profile picture,Profile,Medium,Open
